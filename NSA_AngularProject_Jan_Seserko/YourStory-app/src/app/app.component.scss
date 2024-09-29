@@ -1,0 +1,56 @@
+:host {
+  display: block;
+  height: 100vh;
+  background-image: url('https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_1280.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker transparent background for the navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold; /* Bold brand name */
+}
+
+.nav-link {
+  font-size: 1.1rem; /* Slightly larger font for navbar links */
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px); /* Adjusts for navbar height */
+  color: white; /* Text color for contrast */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Adds depth to text */
+}
+
+.btn {
+  margin-top: 20px; /* Adds some space above the button */
+  background-color: black; /* Set button background to black */
+  border-color: black; /* Set button border to black */
+  color: white; /* White text color for contrast */
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Optional: Add a hover effect */
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark footer background with transparency */
+  color: white; /* White text in footer */
+  padding: 10px 0; /* Padding for the footer */
+}

@@ -31,10 +31,16 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
-            "scripts": []
+          "styles": [
+  "node_modules/bootstrap/scss/bootstrap.scss",
+  "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
+  "node_modules/@fortawesome/fontawesome-free/scss/solid.scss",
+  "node_modules/@fortawesome/fontawesome-free/scss/regular.scss",
+  "node_modules/@fortawesome/fontawesome-free/scss/brands.scss",
+  "src/styles.scss"
+],
+"scripts": []
+
           },
           "configurations": {
             "production": {
@@ -100,6 +106,6 @@
     }
   },
   "cli": {
-    "analytics": "8432de52-3373-4a4b-a506-dc922ed597f2"
+    "analytics": false
   }
 }
