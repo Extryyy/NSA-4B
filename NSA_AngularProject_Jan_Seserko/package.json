@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "@angular/cli": "^18.2.6",
+    "@fortawesome/angular-fontawesome": "^0.15.0",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "bootstrap": "^5.3.3"
   }
 }
